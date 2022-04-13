@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic&family=Noto+Sans+Arabic:wght@300&display=swap');
+body{
+    margin: 0;
+    font-family:'Noto Sans Arabic', sans-serif!important;
+}
+header{
+  text-align: center;
+  background-color: #072014;
+}
+.login , .signup{
+    padding-left: 4rem;
+    padding-right: 4rem;
+    cursor: pointer;
+}
+.active{
+    background-color: #198754;
+    cursor:not-allowed;
+}
+.in-active{
+    background-color:#6c757d !important;
+}
+.holder{
+    width: 50%;
+    margin: auto;
+}
+.email{
+    background-color: transparent !important;
+    border:1px solid #9b9a9a !important;
+    color: #e7e8e9 !important;
+    &:focus{
+      box-shadow: none !important;
+      border:1px solid #9b9a9a !important;
+      background-color: #e7e8e9 !important;
+      color: black !important;
+      direction: ltr;
+      outline: 0;
+    }
+     
+}
+.password{
+    background-color: transparent !important;
+    border:1px solid #9b9a9a !important;
+    color: #e7e8e9 !important;
+    &:focus{
+      box-shadow: none !important;
+      border:1px solid #9b9a9a !important;
+      background-color: #e7e8e9 !important;
+      color: black !important;
+      direction: ltr;
+      outline: 0;
+ 
+    }
+}
+.btn-submit{
+    width: 100%;
+    border: none !important;
+    margin: 2rem 0;
+  &:focus{
+    box-shadow: none !important;
+    outline: 0 !important;
+  }
+}
+#location{
+    width: 100%;
+    &:focus{
+        box-shadow: none !important;
+        border: none !important;
+        outline: 0 !important;
+    }
+  
+}
+.btn-pass{
+    width:10%;
+    padding:.2rem!important;
+    background-color: transparent !important;
+    border:1px solid #9b9a9a !important;
+    border-right: 0 !important;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    &:focus{
+        box-shadow: none !important;
+        outline: 0 !important;
+    }
+}
+#pass{
+    flex-basis: 90% !important;
+    border-left: 0!important;
+}
+.pas{
+    border-left: 0 !important;
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+}
+.error{
+    color: red;
+    text-align: right !important;
+}
